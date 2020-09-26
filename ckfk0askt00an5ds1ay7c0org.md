@@ -1,4 +1,4 @@
-## Overriding Java Object class methods
+## Overriding Java Object Class Methods
 
 Hello Everyone!!😋
 
@@ -63,7 +63,7 @@ HashCode of ex3:2
 Here we have created three objects for the class Example. ex1 and ex2 have the same arguments and ex3 has different arguments. So, according to the overridden equals() method, **ex1.equals(ex2) returns true because they have same arguments and ex1.equals(ex3) returns false because they have different arguments.**
 
 Also, here in the hashCode() method, we have returned the id value. However, the hashCode() method can be implemented in many other ways. For example, we can return a new value which is obtained by performing a calculation of our choice inside the method itself. In this way, we can override hashCode() and equals() methods of Java Object class.
->Note: If we don't override the hashCode() method along with the equals() method, then we will face a problem while using the hash-based collections like HashMap, HashSet, and Hashtable in our class.
+>Note: If we don't override the hashCode() method along with the equals() method, then it will prevent our class from functioning properly when the hash-based collections like HashMap, HashSet, and Hashtable are used in our class.
 
 ## Overriding toString() method:
 The toString() method returns the name of the class followed by the character '@' and the unsigned hexadecimal representation of the hash code of the object as shown below.

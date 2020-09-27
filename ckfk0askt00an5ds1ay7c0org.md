@@ -104,7 +104,7 @@ public class Person
 Output:
 Name:Chakri  Id:157
 ```
-In this way, we can override the toString() to print the required attributes.
+In this way, we can override the toString() method to print the required attributes of the class.
 
 These are some of the important Java Object class methods and the ways to override them.
 

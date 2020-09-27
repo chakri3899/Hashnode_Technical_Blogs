@@ -5,7 +5,7 @@ Hello Everyone!!😋
 This article is the continuation of my previous article [Understanding Object class in Java](https://chakradharblogs.hashnode.dev/understanding-object-class-in-java). In this article, we will discuss how to override some important methods of Object class in java. Make sure that you have read my previous article before reading this. Let's start😃
 
 ## Overriding equals() and hashCode() methods:
-The hashCode() method will return a unique number for every object which is called as hashcode and the equals() method compares two objects for equality and returns true if they have same references. Now we will override these two methods so that, the equals method checks for the arguments of the object instead of checking for the references and returns true if both the objects have same arguments. If we are overriding the equals() method then it is compulsory to override the hashCode() method. Let's see an example.
+The hashCode() method will return a unique number for every object which is called as hashcode and the equals() method compares two objects for equality and returns true if they have same references. Now we will override these two methods so that, the equals method checks for the arguments of the object instead of checking for the references and returns true if both the objects have same arguments. **If we are overriding the equals() method then it is compulsory to override the hashCode() method.** Let's see an example.
 
 ``` java
 class Example 
